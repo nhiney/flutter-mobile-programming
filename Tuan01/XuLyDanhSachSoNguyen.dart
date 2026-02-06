@@ -8,15 +8,13 @@ bool laSoNguyenTo(int n) {
   }
   return true;
 }
-
 void main() {
-  // Nhập số lượng phần tử
+
   stdout.write("Nhập số lượng phần tử của danh sách: ");
   int n = int.parse(stdin.readLineSync()!);
 
   List<int> danhSach = [];
 
-  // Nhập các phần tử
   for (int i = 0; i < n; i++) {
     stdout.write("Nhập phần tử thứ ${i + 1}: ");
     int x = int.parse(stdin.readLineSync()!);

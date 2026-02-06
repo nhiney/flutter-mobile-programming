@@ -1,7 +1,5 @@
 import 'dart:io';
-
 void main() {
-  // Nhập số nguyên dương > 10
   stdout.write("Nhập một số nguyên dương (>10): ");
   int n = int.parse(stdin.readLineSync()!);
 
@@ -26,7 +24,6 @@ void main() {
     }
   }
 
-  // Xuất kết quả
   print("Số chữ số của số đã nhập: $soChuSo");
   print("Tổng các chữ số: $tongChuSo");
 

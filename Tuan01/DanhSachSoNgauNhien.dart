@@ -4,17 +4,14 @@ import 'dart:math';
 void main() {
   Random random = Random();
 
-  // Nhập số lượng phần tử
   stdout.write("Nhập số lượng phần tử của danh sách: ");
   int n = int.parse(stdin.readLineSync()!);
 
   List<int> list = [];
 
-  // Tạo danh sách số ngẫu nhiên từ 5 đến 100
   for (int i = 0; i < n; i++) {
     list.add(5 + random.nextInt(96));
   }
-
   // a. Xuất danh sách
   print("\na. Danh sách vừa tạo:");
   print(list);
@@ -29,7 +26,7 @@ void main() {
       demLe++;
     }
   }
-
+  
   if (demLe == 0) {
     print("b. Danh sách không có số lẻ");
   } else {

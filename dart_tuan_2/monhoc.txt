@@ -1,0 +1,5 @@
+LT001#Lap trinh Dart#3#7.5#8.0
+TH001#Lap trinh Web#4#7#8#9
+DA001#Do an CNPM#5#8.5#9.0
+LT002#CTDLGT#3#6.5#7.0
+TH002#Co so du lieu#4#8#8#7

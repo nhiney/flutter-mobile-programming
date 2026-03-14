@@ -14,17 +14,25 @@ class MenuItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: CircleAvatar(
-        backgroundColor: Colors.grey[200],
-        child: Icon(icon, color: Colors.blue),
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+      padding: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(15),
+        boxShadow: [
+          BoxShadow(color: Colors.grey.withOpacity(0.15), blurRadius: 10),
+        ],
       ),
-
-      title: Text(title),
-
-      subtitle: Text(subtitle),
-
-      trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+      child: ListTile(
+        leading: CircleAvatar(
+          backgroundColor: Colors.deepPurple.withOpacity(0.1),
+          child: Icon(icon, color: Colors.deepPurple),
+        ),
+        title: Text(title),
+        subtitle: Text(subtitle),
+        trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+      ),
     );
   }
 }

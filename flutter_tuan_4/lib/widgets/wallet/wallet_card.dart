@@ -8,25 +8,37 @@ class WalletCard extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.all(20),
       padding: const EdgeInsets.all(20),
-      height: 180,
+      height: 190,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
         gradient: const LinearGradient(
-          colors: [Colors.purple, Colors.deepPurple],
+          colors: [Color(0xff7F00FF), Color(0xffE100FF)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
         ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.purple.withOpacity(0.4),
+            blurRadius: 15,
+            offset: const Offset(0, 8),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: const [
-          Text("Balance", style: TextStyle(color: Colors.white70)),
+          Text(
+            "Balance",
+            style: TextStyle(color: Colors.white70, fontSize: 16),
+          ),
 
           SizedBox(height: 10),
 
           Text(
-            "\$5250.25",
+            "\$5,250.25",
             style: TextStyle(
               color: Colors.white,
-              fontSize: 28,
+              fontSize: 30,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -36,9 +48,14 @@ class WalletCard extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("12345678", style: TextStyle(color: Colors.white)),
-
-              Text("10/24", style: TextStyle(color: Colors.white)),
+              Text(
+                "1234 5678",
+                style: TextStyle(color: Colors.white, fontSize: 16),
+              ),
+              Text(
+                "10/24",
+                style: TextStyle(color: Colors.white, fontSize: 16),
+              ),
             ],
           ),
         ],

@@ -10,15 +10,25 @@ class ActionButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        CircleAvatar(
-          radius: 28,
-          backgroundColor: Colors.white,
-          child: Icon(icon, color: Colors.blue),
+        Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(15),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.grey.withOpacity(0.2),
+                blurRadius: 8,
+                offset: const Offset(0, 4),
+              ),
+            ],
+          ),
+          child: Icon(icon, color: Colors.deepPurple, size: 28),
         ),
 
         const SizedBox(height: 8),
 
-        Text(label),
+        Text(label, style: const TextStyle(fontWeight: FontWeight.w500)),
       ],
     );
   }

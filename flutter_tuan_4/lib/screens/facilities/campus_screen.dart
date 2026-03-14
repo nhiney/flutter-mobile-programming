@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../widgets/facility_card.dart';
+import '../../widgets/facilities/facility_card.dart';
 
 class CampusScreen extends StatelessWidget {
   const CampusScreen({super.key});

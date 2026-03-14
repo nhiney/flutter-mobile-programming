@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'calculator_screen.dart';
-import 'facility_home.dart';
-import 'mood_screen.dart';
+import 'calculator/calculator_screen.dart';
+import 'facilities/facility_home.dart';
+import 'mood/mood_screen.dart';
+import 'wallet/wallet_screen.dart';
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});
@@ -41,6 +42,16 @@ class MenuScreen extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (_) => const MoodScreen()),
+              );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.account_balance_wallet),
+            title: Text("Bài 4 - E Wallet"),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => WalletScreen()),
               );
             },
           ),

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../widgets/calculator_button.dart';
-import '../widgets/display.dart';
-import '../widgets/memory_bar.dart';
-import '../drawer/calculator_drawer.dart';
-import '../services/calculator_logic.dart';
+import '../../widgets/calculator/calculator_button.dart';
+import '../../widgets/calculator/display.dart';
+import '../../widgets/calculator/memory_bar.dart';
+import '../../drawer/calculator_drawer.dart';
+import '../../services/calculator_logic.dart';
 
 class CalculatorScreen extends StatefulWidget {
   const CalculatorScreen({super.key});

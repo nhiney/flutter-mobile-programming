@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../widgets/mood_button.dart';
-import '../widgets/exercise_card.dart';
+import '../../widgets/mood/mood_button.dart';
+import '../../widgets/mood/exercise_card.dart';
 
 class MoodScreen extends StatelessWidget {
   const MoodScreen({super.key});

@@ -3,6 +3,7 @@ import 'calculator/calculator_screen.dart';
 import 'facilities/facility_home.dart';
 import 'mood/mood_screen.dart';
 import 'wallet/wallet_screen.dart';
+import 'medical/medical_screen.dart'; 
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});
@@ -11,6 +12,7 @@ class MenuScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Flutter Assignments")),
+
       body: ListView(
         children: [
           ListTile(
@@ -45,13 +47,26 @@ class MenuScreen extends StatelessWidget {
               );
             },
           ),
+
           ListTile(
-            leading: Icon(Icons.account_balance_wallet),
-            title: Text("Bài 4 - E Wallet"),
+            leading: const Icon(Icons.account_balance_wallet),
+            title: const Text("Bài 4 - E Wallet"),
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (_) => WalletScreen()),
+                MaterialPageRoute(builder: (_) => const WalletScreen()),
+              );
+            },
+          ),
+
+          /// ⭐ Bài 5
+          ListTile(
+            leading: const Icon(Icons.local_hospital),
+            title: const Text("Bài 5 - Medical Appointment"),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const MedicalScreen()),
               );
             },
           ),

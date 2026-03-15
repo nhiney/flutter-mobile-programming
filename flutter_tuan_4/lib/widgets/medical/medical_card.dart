@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class MedicalCard extends StatelessWidget {
   const MedicalCard({super.key});
 

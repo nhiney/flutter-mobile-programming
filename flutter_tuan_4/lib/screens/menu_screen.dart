@@ -4,7 +4,7 @@ import 'facilities/facility_home.dart';
 import 'mood/mood_screen.dart';
 import 'wallet/wallet_screen.dart';
 import 'medical/medical_screen.dart'; 
-
+import 'music/music_screen.dart';
 class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});
 
@@ -67,6 +67,16 @@ class MenuScreen extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (_) => const MedicalScreen()),
+              );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.music_note),
+            title: Text("Bài 6 - Music Player"),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => MusicScreen()),
               );
             },
           ),

@@ -18,6 +18,7 @@ class WalletCard extends StatelessWidget {
         ),
         boxShadow: [
           BoxShadow(
+            // ignore: deprecated_member_use
             color: Colors.purple.withOpacity(0.4),
             blurRadius: 15,
             offset: const Offset(0, 8),

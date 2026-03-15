@@ -21,11 +21,13 @@ class MenuItem extends StatelessWidget {
         color: Colors.white,
         borderRadius: BorderRadius.circular(15),
         boxShadow: [
+          // ignore: deprecated_member_use
           BoxShadow(color: Colors.grey.withOpacity(0.15), blurRadius: 10),
         ],
       ),
       child: ListTile(
         leading: CircleAvatar(
+          // ignore: deprecated_member_use
           backgroundColor: Colors.deepPurple.withOpacity(0.1),
           child: Icon(icon, color: Colors.deepPurple),
         ),

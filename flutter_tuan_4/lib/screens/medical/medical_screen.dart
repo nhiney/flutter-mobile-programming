@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../widgets/medical/medical_card.dart';
 import '../../widgets/medical/search_bar.dart';
 import '../../widgets/medical/category_item.dart';
@@ -31,7 +30,7 @@ class MedicalScreen extends StatelessWidget {
                       SizedBox(height: 4),
 
                       Text(
-                        "Mitch Koko",
+                        "Mitch Koo",
                         style: TextStyle(
                           fontSize: 22,
                           fontWeight: FontWeight.bold,
@@ -87,7 +86,7 @@ class MedicalScreen extends StatelessWidget {
               const Row(
                 children: [
                   DoctorCard(
-                    name: "Dr Mitch Koko",
+                    name: "Dr Mitch Koo",
                     job: "Psychologist",
                     rating: "4.4",
                   ),

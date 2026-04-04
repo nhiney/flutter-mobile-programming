@@ -1,0 +1,32 @@
+Resolving dependencies...
+Downloading packages...
+  meta 1.17.0 (1.18.2 available)
+  test_api 0.7.10 (0.7.11 available)
+  vector_math 2.2.0 (2.3.0 available)
+Got dependencies!
+3 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing flutter_tuan_6...                                     
+
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/menu_screen.dart:44:57 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/add_sanpham_screen.dart:70:52 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/add_sanpham_screen.dart:105:52 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/add_sanpham_screen.dart:152:44 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/sanpham_list_screen.dart:99:49 • deprecated_member_use
+  error • The named parameter 'shadowColor' isn't defined • lib/screens/san_pham/sanpham_list_screen.dart:180:9 • undefined_named_parameter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/sanpham_list_screen.dart:180:46 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/sanpham_list_screen.dart:197:44 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/sanpham_list_screen.dart:239:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/sanpham_list_screen.dart:242:59 • deprecated_member_use
+  error • The class 'EdgeInsets' doesn't have a constant constructor 'bottom' • lib/screens/san_pham/sanpham_list_screen.dart:313:63 • const_with_undefined_constructor
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/sanpham_list_screen.dart:405:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/san_pham/sanpham_list_screen.dart:422:62 • deprecated_member_use
+warning • Unused import: 'package:flutter_tuan_6/models/sinh_vien/sinhvien.dart' • lib/screens/sinh_vien/home_screen.dart:6:8 • unused_import
+   info • Don't use 'BuildContext's across async gaps • lib/screens/sinh_vien/home_screen.dart:22:39 • use_build_context_synchronously
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/sinh_vien/home_screen.dart:59:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/sinh_vien/home_screen.dart:115:60 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/todo_app/add_todo_screen.dart:60:52 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/todo_app/add_todo_screen.dart:76:52 • deprecated_member_use
+warning • Unused import: 'package:flutter_tuan_6/models/todo_app/todo.dart' • lib/screens/todo_app/todo_list_screen.dart:5:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/todo_app/todo_list_screen.dart:55:58 • deprecated_member_use
+

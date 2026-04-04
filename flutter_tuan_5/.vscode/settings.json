@@ -17,7 +17,9 @@
         "chức",
         "Công",
         "dụng",
+        "điện",
         "giải",
+        "hàng",
         "hiện",
         "Khác",
         "KLKS",
@@ -25,6 +27,7 @@
         "loại",
         "Luận",
         "mạng",
+        "Minh",
         "Momo",
         "ngành",
         "nghệ",
@@ -32,6 +35,7 @@
         "phần",
         "quan",
         "quyết",
+        "thoại",
         "thông",
         "thống",
         "thực",
@@ -39,6 +43,7 @@
         "toàn",
         "triển",
         "trong",
+        "Trọng",
         "tuan"
     ],
     "cmake.sourceDirectory": "/Users/nguyenlephong/Documents/Source/LTDD/flutter-mobile-programming/flutter_tuan_5/linux"

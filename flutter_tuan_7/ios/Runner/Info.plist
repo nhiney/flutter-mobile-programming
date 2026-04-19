@@ -66,5 +66,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires access to your camera to capture photos and record videos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app requires access to your microphone to record audio when capturing video.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app requires access to your photo library to select and display images and videos.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app requires permission to save captured photos and videos to your photo library.</string>
 </dict>
 </plist>

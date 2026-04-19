@@ -1,0 +1,68 @@
+{
+  "app": {
+    "title": "Multimedia Lab 07",
+    "version": "1.0.0"
+  },
+  "media_picker": {
+    "image_quality": 100,
+    "max_width": 1920,
+    "max_height": 1080
+  },
+  "video_recorder": {
+    "sample_video_url": "https://v.pexels.com/video-files/3650647/3650647-sd_640_360_30fps.mp4"
+  },
+  "audio_player": {
+    "songs": [
+      {
+        "title": "Sample Song 1",
+        "artist": "Unknown Artist",
+        "asset": "audios/sample1.mp3"
+      },
+      {
+        "title": "Sample Song 2",
+        "artist": "Unknown Artist",
+        "asset": "audios/sample2.mp3"
+      },
+      {
+        "title": "Sample Song 3",
+        "artist": "Unknown Artist",
+        "asset": "audios/sample3.mp3"
+      }
+    ]
+  },
+  "music_player": {
+    "songs": [
+      {
+        "title": "Song Title 1",
+        "artist": "Artist Name 1",
+        "duration": "4:20",
+        "asset": "audios/sample1.mp3"
+      },
+      {
+        "title": "Song Title 2",
+        "artist": "Artist Name 2",
+        "duration": "3:45",
+        "asset": "audios/sample2.mp3"
+      },
+      {
+        "title": "Song Title 3",
+        "artist": "Artist Name 3",
+        "duration": "5:10",
+        "asset": "audios/sample3.mp3"
+      }
+    ]
+  },
+  "user_management": {
+    "default_country": "Vietnam",
+    "countries": [
+      "Vietnam",
+      "Nigeria",
+      "United States",
+      "Japan",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Australia"
+    ]
+  }
+}
